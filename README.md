@@ -36,6 +36,27 @@ Portfolio Optimization/
 
 ## Installation
 
+### Option 1: Using Anaconda (Recommended)
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd Portfolio-Optimization
+```
+
+2. Create and activate the conda environment:
+```bash
+conda env create -f environment.yml
+conda activate portfolio-optimization
+```
+
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+### Option 2: Using pip
+
 1. Clone the repository:
 ```bash
 git clone <repository-url>
