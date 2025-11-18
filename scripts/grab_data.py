@@ -5,7 +5,7 @@ import pandas as pd
 # 1. Get data from yfinance
 # 2. Iterate through each symbol in the list of tickers
 # 3. Extract the adjusted closing value and date column
-# 4. Merge with the data in the csv if file if not already there
+# 4. Merge with the data in the csv file if not already there
 
 def fetch_data(symbol, start_date, end_date):
     data = yf.download(symbol, start = start_date, end= end_date, auto_adjust= False)

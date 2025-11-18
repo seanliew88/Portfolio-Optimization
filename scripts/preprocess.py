@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def proprocess_data(data):
+def preprocess_data(data):
 
     #Calculate the log returns
     percent_change = data.pct_change()*100
